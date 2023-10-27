@@ -26,7 +26,7 @@ public class BeanConfiguration {
 	
 	@Bean
 	public Book book() {
-		Book bean = new Book("Holy Bible");
+		Book bean = new Book();
 //		bean.setTitle("The Colour of Magic");
 //		bean.setAuthor("Terry Pratchett");
 //		bean.setTopic("Parody");
